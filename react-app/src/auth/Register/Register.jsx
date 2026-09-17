@@ -23,7 +23,7 @@ const Register = () => {
       await submitRegister(userProfile).unwrap();
       setError("");
       navigate("/login");
-    } catch (error) {
+    } catch {
       setError("Registration failed, please try again");
     }
   };

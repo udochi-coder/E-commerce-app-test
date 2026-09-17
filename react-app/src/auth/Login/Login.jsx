@@ -26,7 +26,7 @@ const Login = () => {
       } else {
         setError("Invalid details, please try again");
       }
-    } catch (error) {
+    } catch {
       setError("Invalid username or password");
     }
   };
